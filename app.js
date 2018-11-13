@@ -20,3 +20,31 @@ $("#f").css("background", colorArray[Math.floor(Math.random() * 50)]);
 $("#g").css("background", colorArray[Math.floor(Math.random() * 50)]);
 $("#h").css("background", colorArray[Math.floor(Math.random() * 50)]);
 $("#i").css("background", colorArray[Math.floor(Math.random() * 50)]);
+
+$(window).resize(function(){
+	if($(window).width() === 768) {
+		$("#a").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#b").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#c").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#d").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#e").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#f").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#g").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#h").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#i").css("background", colorArray[Math.floor(Math.random() * 50)]);
+	}
+})
+
+$(window).resize(function(){
+	if($(window).width() === 1200) {
+		$("#a").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#b").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#c").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#d").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#e").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#f").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#g").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#h").css("background", colorArray[Math.floor(Math.random() * 50)]);
+		$("#i").css("background", colorArray[Math.floor(Math.random() * 50)]);
+	}
+})
