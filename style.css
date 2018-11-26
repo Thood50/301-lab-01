@@ -54,6 +54,12 @@
 }
 
 @media (min-width: 768px) {
+    body{
+        margin: auto;
+        max-width: 1200px;
+        align-content: center;
+    }
+
     #a {
         width: 100%;
         height: 100px;

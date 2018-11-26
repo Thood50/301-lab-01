@@ -22,7 +22,7 @@ $("#h").css("background", colorArray[Math.floor(Math.random() * 50)]);
 $("#i").css("background", colorArray[Math.floor(Math.random() * 50)]);
 
 $(window).resize(function(){
-	if($(window).width() === 768) {
+	if($(window).innerWidth() === 768) {
 		$("#a").css("background", colorArray[Math.floor(Math.random() * 50)]);
 		$("#b").css("background", colorArray[Math.floor(Math.random() * 50)]);
 		$("#c").css("background", colorArray[Math.floor(Math.random() * 50)]);
@@ -36,7 +36,7 @@ $(window).resize(function(){
 })
 
 $(window).resize(function(){
-	if($(window).width() === 1200) {
+	if($(window).innerWidth() === 1200) {
 		$("#a").css("background", colorArray[Math.floor(Math.random() * 50)]);
 		$("#b").css("background", colorArray[Math.floor(Math.random() * 50)]);
 		$("#c").css("background", colorArray[Math.floor(Math.random() * 50)]);
